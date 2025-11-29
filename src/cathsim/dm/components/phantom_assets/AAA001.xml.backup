@@ -1,0 +1,22 @@
+<mujoco model="phantom">
+  <compiler meshdir="meshes" />
+  <asset>
+    <mesh name="visual" file="AAA001/visual.stl" />
+    <mesh name="hull_0" file="AAA001/hull_0.stl" />
+  </asset>
+  <worldbody>
+    <body name="phantom" mocap="false">
+      <inertial pos="0 0 0" mass="1000" diaginertia="1000 1000 1000" />
+      <geom name="visual" type="mesh" mesh="visual" contype="0" conaffinity="0" group="2" />
+      <geom type="mesh" mesh="hull_0" />
+
+      <!-- Centerline-based sites -->
+      <site name="start" pos="0.024084 -0.161127 0.848294" size="0.003" rgba="0 1 0 1" />
+      <site name="start_direction" pos="-0.821293 -0.495560 0.282663" size="0.001" rgba="0 1 0 0.5" />
+      <site name="goal" pos="0.003177 -0.154139 1.053505" size="0.003" rgba="1 0 0 1" />
+      <site name="bca" pos="0.0 0.02 0.15" size="0.003" />
+      <site name="lcca" pos="-0.01 0.02 0.15" size="0.003" />
+      <site name="lsa" pos="0.01 0.02 0.15" size="0.003" />
+    </body>
+  </worldbody>
+</mujoco>

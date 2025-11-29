@@ -1,0 +1,448 @@
+<mujoco model="phantom">
+  <compiler meshdir="meshes" />
+  <asset>
+    <mesh name="visual" file="AAA004/visual.stl" />
+    <mesh name="hull_0" file="AAA004/hull_0.stl" />
+    <mesh name="hull_1" file="AAA004/hull_1.stl" />
+    <mesh name="hull_2" file="AAA004/hull_2.stl" />
+    <mesh name="hull_3" file="AAA004/hull_3.stl" />
+    <mesh name="hull_4" file="AAA004/hull_4.stl" />
+    <mesh name="hull_5" file="AAA004/hull_5.stl" />
+    <mesh name="hull_6" file="AAA004/hull_6.stl" />
+    <mesh name="hull_7" file="AAA004/hull_7.stl" />
+    <mesh name="hull_8" file="AAA004/hull_8.stl" />
+    <mesh name="hull_9" file="AAA004/hull_9.stl" />
+    <mesh name="hull_10" file="AAA004/hull_10.stl" />
+    <mesh name="hull_11" file="AAA004/hull_11.stl" />
+    <mesh name="hull_12" file="AAA004/hull_12.stl" />
+    <mesh name="hull_13" file="AAA004/hull_13.stl" />
+    <mesh name="hull_14" file="AAA004/hull_14.stl" />
+    <mesh name="hull_15" file="AAA004/hull_15.stl" />
+    <mesh name="hull_16" file="AAA004/hull_16.stl" />
+    <mesh name="hull_17" file="AAA004/hull_17.stl" />
+    <mesh name="hull_18" file="AAA004/hull_18.stl" />
+    <mesh name="hull_19" file="AAA004/hull_19.stl" />
+    <mesh name="hull_20" file="AAA004/hull_20.stl" />
+    <mesh name="hull_21" file="AAA004/hull_21.stl" />
+    <mesh name="hull_22" file="AAA004/hull_22.stl" />
+    <mesh name="hull_23" file="AAA004/hull_23.stl" />
+    <mesh name="hull_24" file="AAA004/hull_24.stl" />
+    <mesh name="hull_25" file="AAA004/hull_25.stl" />
+    <mesh name="hull_26" file="AAA004/hull_26.stl" />
+    <mesh name="hull_27" file="AAA004/hull_27.stl" />
+    <mesh name="hull_28" file="AAA004/hull_28.stl" />
+    <mesh name="hull_29" file="AAA004/hull_29.stl" />
+    <mesh name="hull_30" file="AAA004/hull_30.stl" />
+    <mesh name="hull_31" file="AAA004/hull_31.stl" />
+    <mesh name="hull_32" file="AAA004/hull_32.stl" />
+    <mesh name="hull_33" file="AAA004/hull_33.stl" />
+    <mesh name="hull_34" file="AAA004/hull_34.stl" />
+    <mesh name="hull_35" file="AAA004/hull_35.stl" />
+    <mesh name="hull_36" file="AAA004/hull_36.stl" />
+    <mesh name="hull_37" file="AAA004/hull_37.stl" />
+    <mesh name="hull_38" file="AAA004/hull_38.stl" />
+    <mesh name="hull_39" file="AAA004/hull_39.stl" />
+    <mesh name="hull_40" file="AAA004/hull_40.stl" />
+    <mesh name="hull_41" file="AAA004/hull_41.stl" />
+    <mesh name="hull_42" file="AAA004/hull_42.stl" />
+    <mesh name="hull_43" file="AAA004/hull_43.stl" />
+    <mesh name="hull_44" file="AAA004/hull_44.stl" />
+    <mesh name="hull_45" file="AAA004/hull_45.stl" />
+    <mesh name="hull_46" file="AAA004/hull_46.stl" />
+    <mesh name="hull_47" file="AAA004/hull_47.stl" />
+    <mesh name="hull_48" file="AAA004/hull_48.stl" />
+    <mesh name="hull_49" file="AAA004/hull_49.stl" />
+    <mesh name="hull_50" file="AAA004/hull_50.stl" />
+    <mesh name="hull_51" file="AAA004/hull_51.stl" />
+    <mesh name="hull_52" file="AAA004/hull_52.stl" />
+    <mesh name="hull_53" file="AAA004/hull_53.stl" />
+    <mesh name="hull_54" file="AAA004/hull_54.stl" />
+    <mesh name="hull_55" file="AAA004/hull_55.stl" />
+    <mesh name="hull_56" file="AAA004/hull_56.stl" />
+    <mesh name="hull_57" file="AAA004/hull_57.stl" />
+    <mesh name="hull_58" file="AAA004/hull_58.stl" />
+    <mesh name="hull_59" file="AAA004/hull_59.stl" />
+    <mesh name="hull_60" file="AAA004/hull_60.stl" />
+    <mesh name="hull_61" file="AAA004/hull_61.stl" />
+    <mesh name="hull_62" file="AAA004/hull_62.stl" />
+    <mesh name="hull_63" file="AAA004/hull_63.stl" />
+    <mesh name="hull_64" file="AAA004/hull_64.stl" />
+    <mesh name="hull_65" file="AAA004/hull_65.stl" />
+    <mesh name="hull_66" file="AAA004/hull_66.stl" />
+    <mesh name="hull_67" file="AAA004/hull_67.stl" />
+    <mesh name="hull_68" file="AAA004/hull_68.stl" />
+    <mesh name="hull_69" file="AAA004/hull_69.stl" />
+    <mesh name="hull_70" file="AAA004/hull_70.stl" />
+    <mesh name="hull_71" file="AAA004/hull_71.stl" />
+    <mesh name="hull_72" file="AAA004/hull_72.stl" />
+    <mesh name="hull_73" file="AAA004/hull_73.stl" />
+    <mesh name="hull_74" file="AAA004/hull_74.stl" />
+    <mesh name="hull_75" file="AAA004/hull_75.stl" />
+    <mesh name="hull_76" file="AAA004/hull_76.stl" />
+    <mesh name="hull_77" file="AAA004/hull_77.stl" />
+    <mesh name="hull_78" file="AAA004/hull_78.stl" />
+    <mesh name="hull_79" file="AAA004/hull_79.stl" />
+    <mesh name="hull_80" file="AAA004/hull_80.stl" />
+    <mesh name="hull_81" file="AAA004/hull_81.stl" />
+    <mesh name="hull_82" file="AAA004/hull_82.stl" />
+    <mesh name="hull_83" file="AAA004/hull_83.stl" />
+    <mesh name="hull_84" file="AAA004/hull_84.stl" />
+    <mesh name="hull_85" file="AAA004/hull_85.stl" />
+    <mesh name="hull_86" file="AAA004/hull_86.stl" />
+    <mesh name="hull_87" file="AAA004/hull_87.stl" />
+    <mesh name="hull_88" file="AAA004/hull_88.stl" />
+    <mesh name="hull_89" file="AAA004/hull_89.stl" />
+    <mesh name="hull_90" file="AAA004/hull_90.stl" />
+    <mesh name="hull_91" file="AAA004/hull_91.stl" />
+    <mesh name="hull_92" file="AAA004/hull_92.stl" />
+    <mesh name="hull_93" file="AAA004/hull_93.stl" />
+    <mesh name="hull_94" file="AAA004/hull_94.stl" />
+    <mesh name="hull_95" file="AAA004/hull_95.stl" />
+    <mesh name="hull_96" file="AAA004/hull_96.stl" />
+    <mesh name="hull_97" file="AAA004/hull_97.stl" />
+    <mesh name="hull_98" file="AAA004/hull_98.stl" />
+    <mesh name="hull_99" file="AAA004/hull_99.stl" />
+    <mesh name="hull_100" file="AAA004/hull_100.stl" />
+    <mesh name="hull_101" file="AAA004/hull_101.stl" />
+    <mesh name="hull_102" file="AAA004/hull_102.stl" />
+    <mesh name="hull_103" file="AAA004/hull_103.stl" />
+    <mesh name="hull_104" file="AAA004/hull_104.stl" />
+    <mesh name="hull_105" file="AAA004/hull_105.stl" />
+    <mesh name="hull_106" file="AAA004/hull_106.stl" />
+    <mesh name="hull_107" file="AAA004/hull_107.stl" />
+    <mesh name="hull_108" file="AAA004/hull_108.stl" />
+    <mesh name="hull_109" file="AAA004/hull_109.stl" />
+    <mesh name="hull_110" file="AAA004/hull_110.stl" />
+    <mesh name="hull_111" file="AAA004/hull_111.stl" />
+    <mesh name="hull_112" file="AAA004/hull_112.stl" />
+    <mesh name="hull_113" file="AAA004/hull_113.stl" />
+    <mesh name="hull_114" file="AAA004/hull_114.stl" />
+    <mesh name="hull_115" file="AAA004/hull_115.stl" />
+    <mesh name="hull_116" file="AAA004/hull_116.stl" />
+    <mesh name="hull_117" file="AAA004/hull_117.stl" />
+    <mesh name="hull_118" file="AAA004/hull_118.stl" />
+    <mesh name="hull_119" file="AAA004/hull_119.stl" />
+    <mesh name="hull_120" file="AAA004/hull_120.stl" />
+    <mesh name="hull_121" file="AAA004/hull_121.stl" />
+    <mesh name="hull_122" file="AAA004/hull_122.stl" />
+    <mesh name="hull_123" file="AAA004/hull_123.stl" />
+    <mesh name="hull_124" file="AAA004/hull_124.stl" />
+    <mesh name="hull_125" file="AAA004/hull_125.stl" />
+    <mesh name="hull_126" file="AAA004/hull_126.stl" />
+    <mesh name="hull_127" file="AAA004/hull_127.stl" />
+    <mesh name="hull_128" file="AAA004/hull_128.stl" />
+    <mesh name="hull_129" file="AAA004/hull_129.stl" />
+    <mesh name="hull_130" file="AAA004/hull_130.stl" />
+    <mesh name="hull_131" file="AAA004/hull_131.stl" />
+    <mesh name="hull_132" file="AAA004/hull_132.stl" />
+    <mesh name="hull_133" file="AAA004/hull_133.stl" />
+    <mesh name="hull_134" file="AAA004/hull_134.stl" />
+    <mesh name="hull_135" file="AAA004/hull_135.stl" />
+    <mesh name="hull_136" file="AAA004/hull_136.stl" />
+    <mesh name="hull_137" file="AAA004/hull_137.stl" />
+    <mesh name="hull_138" file="AAA004/hull_138.stl" />
+    <mesh name="hull_139" file="AAA004/hull_139.stl" />
+    <mesh name="hull_140" file="AAA004/hull_140.stl" />
+    <mesh name="hull_141" file="AAA004/hull_141.stl" />
+    <mesh name="hull_142" file="AAA004/hull_142.stl" />
+    <mesh name="hull_143" file="AAA004/hull_143.stl" />
+    <mesh name="hull_144" file="AAA004/hull_144.stl" />
+    <mesh name="hull_145" file="AAA004/hull_145.stl" />
+    <mesh name="hull_146" file="AAA004/hull_146.stl" />
+    <mesh name="hull_147" file="AAA004/hull_147.stl" />
+    <mesh name="hull_148" file="AAA004/hull_148.stl" />
+    <mesh name="hull_149" file="AAA004/hull_149.stl" />
+    <mesh name="hull_150" file="AAA004/hull_150.stl" />
+    <mesh name="hull_151" file="AAA004/hull_151.stl" />
+    <mesh name="hull_152" file="AAA004/hull_152.stl" />
+    <mesh name="hull_153" file="AAA004/hull_153.stl" />
+    <mesh name="hull_154" file="AAA004/hull_154.stl" />
+    <mesh name="hull_155" file="AAA004/hull_155.stl" />
+    <mesh name="hull_156" file="AAA004/hull_156.stl" />
+    <mesh name="hull_157" file="AAA004/hull_157.stl" />
+    <mesh name="hull_158" file="AAA004/hull_158.stl" />
+    <mesh name="hull_159" file="AAA004/hull_159.stl" />
+    <mesh name="hull_160" file="AAA004/hull_160.stl" />
+    <mesh name="hull_161" file="AAA004/hull_161.stl" />
+    <mesh name="hull_162" file="AAA004/hull_162.stl" />
+    <mesh name="hull_163" file="AAA004/hull_163.stl" />
+    <mesh name="hull_164" file="AAA004/hull_164.stl" />
+    <mesh name="hull_165" file="AAA004/hull_165.stl" />
+    <mesh name="hull_166" file="AAA004/hull_166.stl" />
+    <mesh name="hull_167" file="AAA004/hull_167.stl" />
+    <mesh name="hull_168" file="AAA004/hull_168.stl" />
+    <mesh name="hull_169" file="AAA004/hull_169.stl" />
+    <mesh name="hull_170" file="AAA004/hull_170.stl" />
+    <mesh name="hull_171" file="AAA004/hull_171.stl" />
+    <mesh name="hull_172" file="AAA004/hull_172.stl" />
+    <mesh name="hull_173" file="AAA004/hull_173.stl" />
+    <mesh name="hull_174" file="AAA004/hull_174.stl" />
+    <mesh name="hull_175" file="AAA004/hull_175.stl" />
+    <mesh name="hull_176" file="AAA004/hull_176.stl" />
+    <mesh name="hull_177" file="AAA004/hull_177.stl" />
+    <mesh name="hull_178" file="AAA004/hull_178.stl" />
+    <mesh name="hull_179" file="AAA004/hull_179.stl" />
+    <mesh name="hull_180" file="AAA004/hull_180.stl" />
+    <mesh name="hull_181" file="AAA004/hull_181.stl" />
+    <mesh name="hull_182" file="AAA004/hull_182.stl" />
+    <mesh name="hull_183" file="AAA004/hull_183.stl" />
+    <mesh name="hull_184" file="AAA004/hull_184.stl" />
+    <mesh name="hull_185" file="AAA004/hull_185.stl" />
+    <mesh name="hull_186" file="AAA004/hull_186.stl" />
+    <mesh name="hull_187" file="AAA004/hull_187.stl" />
+    <mesh name="hull_188" file="AAA004/hull_188.stl" />
+    <mesh name="hull_189" file="AAA004/hull_189.stl" />
+    <mesh name="hull_190" file="AAA004/hull_190.stl" />
+    <mesh name="hull_191" file="AAA004/hull_191.stl" />
+    <mesh name="hull_192" file="AAA004/hull_192.stl" />
+    <mesh name="hull_193" file="AAA004/hull_193.stl" />
+    <mesh name="hull_194" file="AAA004/hull_194.stl" />
+    <mesh name="hull_195" file="AAA004/hull_195.stl" />
+    <mesh name="hull_196" file="AAA004/hull_196.stl" />
+    <mesh name="hull_197" file="AAA004/hull_197.stl" />
+    <mesh name="hull_198" file="AAA004/hull_198.stl" />
+    <mesh name="hull_199" file="AAA004/hull_199.stl" />
+    <mesh name="hull_200" file="AAA004/hull_200.stl" />
+    <mesh name="hull_201" file="AAA004/hull_201.stl" />
+    <mesh name="hull_202" file="AAA004/hull_202.stl" />
+    <mesh name="hull_203" file="AAA004/hull_203.stl" />
+    <mesh name="hull_204" file="AAA004/hull_204.stl" />
+    <mesh name="hull_205" file="AAA004/hull_205.stl" />
+    <mesh name="hull_206" file="AAA004/hull_206.stl" />
+    <mesh name="hull_207" file="AAA004/hull_207.stl" />
+    <mesh name="hull_208" file="AAA004/hull_208.stl" />
+    <mesh name="hull_209" file="AAA004/hull_209.stl" />
+    <mesh name="hull_210" file="AAA004/hull_210.stl" />
+    <mesh name="hull_211" file="AAA004/hull_211.stl" />
+    <mesh name="hull_212" file="AAA004/hull_212.stl" />
+    <mesh name="hull_213" file="AAA004/hull_213.stl" />
+  </asset>
+  <worldbody>
+    <body name="phantom" mocap="false">
+      <inertial pos="0 0 0" mass="1000" diaginertia="1000 1000 1000" />
+      <geom name="visual" type="mesh" mesh="visual" contype="0" conaffinity="0" group="2" />
+      <geom name="collision_0" type="mesh" mesh="hull_0" />
+      <geom name="collision_1" type="mesh" mesh="hull_1" />
+      <geom name="collision_2" type="mesh" mesh="hull_2" />
+      <geom name="collision_3" type="mesh" mesh="hull_3" />
+      <geom name="collision_4" type="mesh" mesh="hull_4" />
+      <geom name="collision_5" type="mesh" mesh="hull_5" />
+      <geom name="collision_6" type="mesh" mesh="hull_6" />
+      <geom name="collision_7" type="mesh" mesh="hull_7" />
+      <geom name="collision_8" type="mesh" mesh="hull_8" />
+      <geom name="collision_9" type="mesh" mesh="hull_9" />
+      <geom name="collision_10" type="mesh" mesh="hull_10" />
+      <geom name="collision_11" type="mesh" mesh="hull_11" />
+      <geom name="collision_12" type="mesh" mesh="hull_12" />
+      <geom name="collision_13" type="mesh" mesh="hull_13" />
+      <geom name="collision_14" type="mesh" mesh="hull_14" />
+      <geom name="collision_15" type="mesh" mesh="hull_15" />
+      <geom name="collision_16" type="mesh" mesh="hull_16" />
+      <geom name="collision_17" type="mesh" mesh="hull_17" />
+      <geom name="collision_18" type="mesh" mesh="hull_18" />
+      <geom name="collision_19" type="mesh" mesh="hull_19" />
+      <geom name="collision_20" type="mesh" mesh="hull_20" />
+      <geom name="collision_21" type="mesh" mesh="hull_21" />
+      <geom name="collision_22" type="mesh" mesh="hull_22" />
+      <geom name="collision_23" type="mesh" mesh="hull_23" />
+      <geom name="collision_24" type="mesh" mesh="hull_24" />
+      <geom name="collision_25" type="mesh" mesh="hull_25" />
+      <geom name="collision_26" type="mesh" mesh="hull_26" />
+      <geom name="collision_27" type="mesh" mesh="hull_27" />
+      <geom name="collision_28" type="mesh" mesh="hull_28" />
+      <geom name="collision_29" type="mesh" mesh="hull_29" />
+      <geom name="collision_30" type="mesh" mesh="hull_30" />
+      <geom name="collision_31" type="mesh" mesh="hull_31" />
+      <geom name="collision_32" type="mesh" mesh="hull_32" />
+      <geom name="collision_33" type="mesh" mesh="hull_33" />
+      <geom name="collision_34" type="mesh" mesh="hull_34" />
+      <geom name="collision_35" type="mesh" mesh="hull_35" />
+      <geom name="collision_36" type="mesh" mesh="hull_36" />
+      <geom name="collision_37" type="mesh" mesh="hull_37" />
+      <geom name="collision_38" type="mesh" mesh="hull_38" />
+      <geom name="collision_39" type="mesh" mesh="hull_39" />
+      <geom name="collision_40" type="mesh" mesh="hull_40" />
+      <geom name="collision_41" type="mesh" mesh="hull_41" />
+      <geom name="collision_42" type="mesh" mesh="hull_42" />
+      <geom name="collision_43" type="mesh" mesh="hull_43" />
+      <geom name="collision_44" type="mesh" mesh="hull_44" />
+      <geom name="collision_45" type="mesh" mesh="hull_45" />
+      <geom name="collision_46" type="mesh" mesh="hull_46" />
+      <geom name="collision_47" type="mesh" mesh="hull_47" />
+      <geom name="collision_48" type="mesh" mesh="hull_48" />
+      <geom name="collision_49" type="mesh" mesh="hull_49" />
+      <geom name="collision_50" type="mesh" mesh="hull_50" />
+      <geom name="collision_51" type="mesh" mesh="hull_51" />
+      <geom name="collision_52" type="mesh" mesh="hull_52" />
+      <geom name="collision_53" type="mesh" mesh="hull_53" />
+      <geom name="collision_54" type="mesh" mesh="hull_54" />
+      <geom name="collision_55" type="mesh" mesh="hull_55" />
+      <geom name="collision_56" type="mesh" mesh="hull_56" />
+      <geom name="collision_57" type="mesh" mesh="hull_57" />
+      <geom name="collision_58" type="mesh" mesh="hull_58" />
+      <geom name="collision_59" type="mesh" mesh="hull_59" />
+      <geom name="collision_60" type="mesh" mesh="hull_60" />
+      <geom name="collision_61" type="mesh" mesh="hull_61" />
+      <geom name="collision_62" type="mesh" mesh="hull_62" />
+      <geom name="collision_63" type="mesh" mesh="hull_63" />
+      <geom name="collision_64" type="mesh" mesh="hull_64" />
+      <geom name="collision_65" type="mesh" mesh="hull_65" />
+      <geom name="collision_66" type="mesh" mesh="hull_66" />
+      <geom name="collision_67" type="mesh" mesh="hull_67" />
+      <geom name="collision_68" type="mesh" mesh="hull_68" />
+      <geom name="collision_69" type="mesh" mesh="hull_69" />
+      <geom name="collision_70" type="mesh" mesh="hull_70" />
+      <geom name="collision_71" type="mesh" mesh="hull_71" />
+      <geom name="collision_72" type="mesh" mesh="hull_72" />
+      <geom name="collision_73" type="mesh" mesh="hull_73" />
+      <geom name="collision_74" type="mesh" mesh="hull_74" />
+      <geom name="collision_75" type="mesh" mesh="hull_75" />
+      <geom name="collision_76" type="mesh" mesh="hull_76" />
+      <geom name="collision_77" type="mesh" mesh="hull_77" />
+      <geom name="collision_78" type="mesh" mesh="hull_78" />
+      <geom name="collision_79" type="mesh" mesh="hull_79" />
+      <geom name="collision_80" type="mesh" mesh="hull_80" />
+      <geom name="collision_81" type="mesh" mesh="hull_81" />
+      <geom name="collision_82" type="mesh" mesh="hull_82" />
+      <geom name="collision_83" type="mesh" mesh="hull_83" />
+      <geom name="collision_84" type="mesh" mesh="hull_84" />
+      <geom name="collision_85" type="mesh" mesh="hull_85" />
+      <geom name="collision_86" type="mesh" mesh="hull_86" />
+      <geom name="collision_87" type="mesh" mesh="hull_87" />
+      <geom name="collision_88" type="mesh" mesh="hull_88" />
+      <geom name="collision_89" type="mesh" mesh="hull_89" />
+      <geom name="collision_90" type="mesh" mesh="hull_90" />
+      <geom name="collision_91" type="mesh" mesh="hull_91" />
+      <geom name="collision_92" type="mesh" mesh="hull_92" />
+      <geom name="collision_93" type="mesh" mesh="hull_93" />
+      <geom name="collision_94" type="mesh" mesh="hull_94" />
+      <geom name="collision_95" type="mesh" mesh="hull_95" />
+      <geom name="collision_96" type="mesh" mesh="hull_96" />
+      <geom name="collision_97" type="mesh" mesh="hull_97" />
+      <geom name="collision_98" type="mesh" mesh="hull_98" />
+      <geom name="collision_99" type="mesh" mesh="hull_99" />
+      <geom name="collision_100" type="mesh" mesh="hull_100" />
+      <geom name="collision_101" type="mesh" mesh="hull_101" />
+      <geom name="collision_102" type="mesh" mesh="hull_102" />
+      <geom name="collision_103" type="mesh" mesh="hull_103" />
+      <geom name="collision_104" type="mesh" mesh="hull_104" />
+      <geom name="collision_105" type="mesh" mesh="hull_105" />
+      <geom name="collision_106" type="mesh" mesh="hull_106" />
+      <geom name="collision_107" type="mesh" mesh="hull_107" />
+      <geom name="collision_108" type="mesh" mesh="hull_108" />
+      <geom name="collision_109" type="mesh" mesh="hull_109" />
+      <geom name="collision_110" type="mesh" mesh="hull_110" />
+      <geom name="collision_111" type="mesh" mesh="hull_111" />
+      <geom name="collision_112" type="mesh" mesh="hull_112" />
+      <geom name="collision_113" type="mesh" mesh="hull_113" />
+      <geom name="collision_114" type="mesh" mesh="hull_114" />
+      <geom name="collision_115" type="mesh" mesh="hull_115" />
+      <geom name="collision_116" type="mesh" mesh="hull_116" />
+      <geom name="collision_117" type="mesh" mesh="hull_117" />
+      <geom name="collision_118" type="mesh" mesh="hull_118" />
+      <geom name="collision_119" type="mesh" mesh="hull_119" />
+      <geom name="collision_120" type="mesh" mesh="hull_120" />
+      <geom name="collision_121" type="mesh" mesh="hull_121" />
+      <geom name="collision_122" type="mesh" mesh="hull_122" />
+      <geom name="collision_123" type="mesh" mesh="hull_123" />
+      <geom name="collision_124" type="mesh" mesh="hull_124" />
+      <geom name="collision_125" type="mesh" mesh="hull_125" />
+      <geom name="collision_126" type="mesh" mesh="hull_126" />
+      <geom name="collision_127" type="mesh" mesh="hull_127" />
+      <geom name="collision_128" type="mesh" mesh="hull_128" />
+      <geom name="collision_129" type="mesh" mesh="hull_129" />
+      <geom name="collision_130" type="mesh" mesh="hull_130" />
+      <geom name="collision_131" type="mesh" mesh="hull_131" />
+      <geom name="collision_132" type="mesh" mesh="hull_132" />
+      <geom name="collision_133" type="mesh" mesh="hull_133" />
+      <geom name="collision_134" type="mesh" mesh="hull_134" />
+      <geom name="collision_135" type="mesh" mesh="hull_135" />
+      <geom name="collision_136" type="mesh" mesh="hull_136" />
+      <geom name="collision_137" type="mesh" mesh="hull_137" />
+      <geom name="collision_138" type="mesh" mesh="hull_138" />
+      <geom name="collision_139" type="mesh" mesh="hull_139" />
+      <geom name="collision_140" type="mesh" mesh="hull_140" />
+      <geom name="collision_141" type="mesh" mesh="hull_141" />
+      <geom name="collision_142" type="mesh" mesh="hull_142" />
+      <geom name="collision_143" type="mesh" mesh="hull_143" />
+      <geom name="collision_144" type="mesh" mesh="hull_144" />
+      <geom name="collision_145" type="mesh" mesh="hull_145" />
+      <geom name="collision_146" type="mesh" mesh="hull_146" />
+      <geom name="collision_147" type="mesh" mesh="hull_147" />
+      <geom name="collision_148" type="mesh" mesh="hull_148" />
+      <geom name="collision_149" type="mesh" mesh="hull_149" />
+      <geom name="collision_150" type="mesh" mesh="hull_150" />
+      <geom name="collision_151" type="mesh" mesh="hull_151" />
+      <geom name="collision_152" type="mesh" mesh="hull_152" />
+      <geom name="collision_153" type="mesh" mesh="hull_153" />
+      <geom name="collision_154" type="mesh" mesh="hull_154" />
+      <geom name="collision_155" type="mesh" mesh="hull_155" />
+      <geom name="collision_156" type="mesh" mesh="hull_156" />
+      <geom name="collision_157" type="mesh" mesh="hull_157" />
+      <geom name="collision_158" type="mesh" mesh="hull_158" />
+      <geom name="collision_159" type="mesh" mesh="hull_159" />
+      <geom name="collision_160" type="mesh" mesh="hull_160" />
+      <geom name="collision_161" type="mesh" mesh="hull_161" />
+      <geom name="collision_162" type="mesh" mesh="hull_162" />
+      <geom name="collision_163" type="mesh" mesh="hull_163" />
+      <geom name="collision_164" type="mesh" mesh="hull_164" />
+      <geom name="collision_165" type="mesh" mesh="hull_165" />
+      <geom name="collision_166" type="mesh" mesh="hull_166" />
+      <geom name="collision_167" type="mesh" mesh="hull_167" />
+      <geom name="collision_168" type="mesh" mesh="hull_168" />
+      <geom name="collision_169" type="mesh" mesh="hull_169" />
+      <geom name="collision_170" type="mesh" mesh="hull_170" />
+      <geom name="collision_171" type="mesh" mesh="hull_171" />
+      <geom name="collision_172" type="mesh" mesh="hull_172" />
+      <geom name="collision_173" type="mesh" mesh="hull_173" />
+      <geom name="collision_174" type="mesh" mesh="hull_174" />
+      <geom name="collision_175" type="mesh" mesh="hull_175" />
+      <geom name="collision_176" type="mesh" mesh="hull_176" />
+      <geom name="collision_177" type="mesh" mesh="hull_177" />
+      <geom name="collision_178" type="mesh" mesh="hull_178" />
+      <geom name="collision_179" type="mesh" mesh="hull_179" />
+      <geom name="collision_180" type="mesh" mesh="hull_180" />
+      <geom name="collision_181" type="mesh" mesh="hull_181" />
+      <geom name="collision_182" type="mesh" mesh="hull_182" />
+      <geom name="collision_183" type="mesh" mesh="hull_183" />
+      <geom name="collision_184" type="mesh" mesh="hull_184" />
+      <geom name="collision_185" type="mesh" mesh="hull_185" />
+      <geom name="collision_186" type="mesh" mesh="hull_186" />
+      <geom name="collision_187" type="mesh" mesh="hull_187" />
+      <geom name="collision_188" type="mesh" mesh="hull_188" />
+      <geom name="collision_189" type="mesh" mesh="hull_189" />
+      <geom name="collision_190" type="mesh" mesh="hull_190" />
+      <geom name="collision_191" type="mesh" mesh="hull_191" />
+      <geom name="collision_192" type="mesh" mesh="hull_192" />
+      <geom name="collision_193" type="mesh" mesh="hull_193" />
+      <geom name="collision_194" type="mesh" mesh="hull_194" />
+      <geom name="collision_195" type="mesh" mesh="hull_195" />
+      <geom name="collision_196" type="mesh" mesh="hull_196" />
+      <geom name="collision_197" type="mesh" mesh="hull_197" />
+      <geom name="collision_198" type="mesh" mesh="hull_198" />
+      <geom name="collision_199" type="mesh" mesh="hull_199" />
+      <geom name="collision_200" type="mesh" mesh="hull_200" />
+      <geom name="collision_201" type="mesh" mesh="hull_201" />
+      <geom name="collision_202" type="mesh" mesh="hull_202" />
+      <geom name="collision_203" type="mesh" mesh="hull_203" />
+      <geom name="collision_204" type="mesh" mesh="hull_204" />
+      <geom name="collision_205" type="mesh" mesh="hull_205" />
+      <geom name="collision_206" type="mesh" mesh="hull_206" />
+      <geom name="collision_207" type="mesh" mesh="hull_207" />
+      <geom name="collision_208" type="mesh" mesh="hull_208" />
+      <geom name="collision_209" type="mesh" mesh="hull_209" />
+      <geom name="collision_210" type="mesh" mesh="hull_210" />
+      <geom name="collision_211" type="mesh" mesh="hull_211" />
+      <geom name="collision_212" type="mesh" mesh="hull_212" />
+      <geom name="collision_213" type="mesh" mesh="hull_213" />
+
+      <!-- Centerline-based sites -->
+      <site name="start" pos="0.032792 0.155215 -0.420030" size="0.003" rgba="0 1 0 1" />
+      <site name="start_direction" pos="-0.381090 0.013234 0.924443" size="0.001" rgba="0 1 0 0.5" />
+      <site name="goal" pos="-0.009550 0.172500 -0.214790" size="0.003" rgba="1 0 0 1" />
+      <site name="bca" pos="0.0 0.02 0.15" size="0.003" />
+      <site name="lcca" pos="-0.01 0.02 0.15" size="0.003" />
+      <site name="lsa" pos="0.01 0.02 0.15" size="0.003" />
+    </body>
+  </worldbody>
+</mujoco>

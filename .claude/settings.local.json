@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python test_quickstart.py:*)",
+      "Bash(python test_visualizations.py:*)",
+      "Bash(python test_visualization_utils.py:*)",
+      "Bash(python:*)",
+      "Bash(dir /s /b C:UsersAdminDocumentscathsimsrccathsimdmcomponentsphantom_assets)",
+      "Bash(dir /s /b \"C:\\Users\\Admin\\Documents\\cathsim\\src\\cathsim\\dm\\components\\phantom_assets\\meshes\\AAA001\")",
+      "Bash(dir /s /b \"C:\\Users\\Admin\\Downloads\\10932957\\meshes\\meshes\")",
+      "Bash(dir:*)",
+      "Bash(findstr:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

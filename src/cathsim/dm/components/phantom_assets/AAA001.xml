@@ -5,7 +5,8 @@
     <mesh name="hull_0" file="AAA001/hull_0.stl" />
   </asset>
   <worldbody>
-    <body name="phantom">
+    <body name="phantom" mocap="false">
+      <inertial pos="0 0 0" mass="1000" diaginertia="1000 1000 1000" />
       <geom name="visual" type="mesh" mesh="visual" contype="0" conaffinity="0" group="2" />
       <geom type="mesh" mesh="hull_0" />
 
