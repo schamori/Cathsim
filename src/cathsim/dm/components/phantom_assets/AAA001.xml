@@ -10,7 +10,8 @@
       <geom type="mesh" mesh="hull_0" />
 
       <!-- Centerline-based sites -->
-      <site name="start" pos="0.024084 -0.161127 0.848294" size="0.003" rgba="0 1 0 1" />
+      <site name="start" pos="0.024084 -0.179627 0.848294" size="0.003" rgba="0 1 0 1" />
+      <site name="start_direction" pos="-0.821293 -0.495560 0.282663" size="0.001" rgba="0 1 0 0.5" />
       <site name="goal" pos="0.003177 -0.154139 1.053505" size="0.003" rgba="1 0 0 1" />
       <site name="bca" pos="0.0 0.02 0.15" size="0.003" />
       <site name="lcca" pos="-0.01 0.02 0.15" size="0.003" />

@@ -455,17 +455,42 @@ class Navigate(composer.Task):
             guidewire_pose = self._phantom.sites['start']
             import numpy as np
 
-            # Different rotations for different phantoms
-            # Get phantom name from mjcf model
-            phantom_name = self._phantom.mjcf_model.model
+            # Check if we have a start_direction to align catheter with centerline
+            if 'start_direction' in self._phantom.sites:
+                # Get the direction vector from the centerline
+                direction = np.array(self._phantom.sites['start_direction'])
 
-            if phantom_name == "AAA003":
-                # 30 degree counterclockwise rotation around Z-axis
-                angle = -np.pi/6  # -30 degrees (counterclockwise)
-                quat = np.array([np.cos(angle/2), 0, 0, np.sin(angle/2)])
+                # Convert direction vector to quaternion
+                # The guidewire extends in the Y-axis by default, so rotate from Y to target direction
+                default_direction = np.array([0, 1, 0])
+
+                # Calculate rotation axis (cross product)
+                rotation_axis = np.cross(default_direction, direction)
+                rotation_axis_norm = np.linalg.norm(rotation_axis)
+
+                if rotation_axis_norm < 1e-6:
+                    # Directions are parallel, no rotation needed (or 180 degree flip)
+                    if np.dot(default_direction, direction) > 0:
+                        quat = np.array([1, 0, 0, 0])  # No rotation
+                    else:
+                        quat = np.array([0, 1, 0, 0])  # 180 degree rotation around X
+                else:
+                    # Normalize rotation axis
+                    rotation_axis = rotation_axis / rotation_axis_norm
+
+                    # Calculate rotation angle
+                    angle = np.arccos(np.clip(np.dot(default_direction, direction), -1.0, 1.0))
+
+                    # Convert to quaternion: q = [cos(angle/2), sin(angle/2) * axis]
+                    quat = np.array([
+                        np.cos(angle / 2),
+                        np.sin(angle / 2) * rotation_axis[0],
+                        np.sin(angle / 2) * rotation_axis[1],
+                        np.sin(angle / 2) * rotation_axis[2]
+                    ])
             else:
-                # AAA001 and others: 90 degree rotation around Z-axis
-                quat = np.array([np.cos(np.pi/4), 0, 0, np.sin(np.pi/4)])
+                # Fallback: no rotation
+                quat = np.array([1, 0, 0, 0])
 
             self._guidewire.set_pose(physics, position=guidewire_pose, quaternion=quat)
         else:
