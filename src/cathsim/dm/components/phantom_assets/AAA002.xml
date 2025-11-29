@@ -1,0 +1,20 @@
+<mujoco model="phantom">
+  <compiler meshdir="meshes" />
+  <asset>
+    <mesh name="visual" file="AAA002/visual.stl" />
+    <mesh name="hull_0" file="AAA002/hull_0.stl" />
+  </asset>
+  <worldbody>
+    <body name="phantom">
+      <geom name="visual" type="mesh" mesh="visual" contype="0" conaffinity="0" group="2" />
+      <geom type="mesh" mesh="hull_0" />
+
+      <!-- Centerline-based sites -->
+      <site name="start" pos="0.028279 0.085549 0.299546" size="0.003" rgba="0 1 0 1" />
+      <site name="goal" pos="0.047853 0.111127 0.516487" size="0.003" rgba="1 0 0 1" />
+      <site name="bca" pos="0.0 0.02 0.15" size="0.003" />
+      <site name="lcca" pos="-0.01 0.02 0.15" size="0.003" />
+      <site name="lsa" pos="0.01 0.02 0.15" size="0.003" />
+    </body>
+  </worldbody>
+</mujoco>

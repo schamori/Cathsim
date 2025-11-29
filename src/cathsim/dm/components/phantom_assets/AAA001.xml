@@ -1,0 +1,18 @@
+<mujoco model="phantom">
+  <compiler meshdir="meshes" />
+  <asset>
+    <mesh name="visual" file="AAA001/visual.stl" />
+    <mesh name="hull_0" file="AAA001/hull_0.stl" />
+  </asset>
+  <worldbody>
+    <body name="phantom">
+      <geom name="visual" type="mesh" mesh="visual" contype="0" conaffinity="0" group="2" />
+      <geom type="mesh" mesh="hull_0" />
+
+      <!-- Target sites (adjust coordinates based on your anatomy) -->
+      <site name="bca" pos="0.0 0.02 0.15" size="0.003" />
+      <site name="lcca" pos="-0.01 0.02 0.15" size="0.003" />
+      <site name="lsa" pos="0.01 0.02 0.15" size="0.003" />
+    </body>
+  </worldbody>
+</mujoco>
