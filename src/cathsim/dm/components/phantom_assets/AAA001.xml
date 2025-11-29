@@ -9,7 +9,9 @@
       <geom name="visual" type="mesh" mesh="visual" contype="0" conaffinity="0" group="2" />
       <geom type="mesh" mesh="hull_0" />
 
-      <!-- Target sites (adjust coordinates based on your anatomy) -->
+      <!-- Centerline-based sites -->
+      <site name="start" pos="0.024084 -0.161127 0.848294" size="0.003" rgba="0 1 0 1" />
+      <site name="goal" pos="0.003177 -0.154139 1.053505" size="0.003" rgba="1 0 0 1" />
       <site name="bca" pos="0.0 0.02 0.15" size="0.003" />
       <site name="lcca" pos="-0.01 0.02 0.15" size="0.003" />
       <site name="lsa" pos="0.01 0.02 0.15" size="0.003" />

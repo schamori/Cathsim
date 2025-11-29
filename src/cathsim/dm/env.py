@@ -448,11 +448,32 @@ class Navigate(composer.Task):
 
         self._physics_variator.apply_variations(physics, random_state)
 
-        # Set initial guidewire pose
-        guidewire_pose = variation.evaluate(
-            self._guidewire_initial_pose, random_state=random_state
-        )
-        self._guidewire.set_pose(physics, position=guidewire_pose)
+        # Check if phantom has a "start" site - if so, use it for initialization
+        # Otherwise fall back to random initialization
+        if hasattr(self._phantom, 'sites') and 'start' in self._phantom.sites:
+            # Use the start site for initial guidewire position
+            guidewire_pose = self._phantom.sites['start']
+            import numpy as np
+
+            # Different rotations for different phantoms
+            # Get phantom name from mjcf model
+            phantom_name = self._phantom.mjcf_model.model
+
+            if phantom_name == "AAA003":
+                # 30 degree counterclockwise rotation around Z-axis
+                angle = -np.pi/6  # -30 degrees (counterclockwise)
+                quat = np.array([np.cos(angle/2), 0, 0, np.sin(angle/2)])
+            else:
+                # AAA001 and others: 90 degree rotation around Z-axis
+                quat = np.array([np.cos(np.pi/4), 0, 0, np.sin(np.pi/4)])
+
+            self._guidewire.set_pose(physics, position=guidewire_pose, quaternion=quat)
+        else:
+            # Set initial guidewire pose using random sampling
+            guidewire_pose = variation.evaluate(
+                self._guidewire_initial_pose, random_state=random_state
+            )
+            self._guidewire.set_pose(physics, position=guidewire_pose)
 
         self.success = False
         if self.sample_target:
